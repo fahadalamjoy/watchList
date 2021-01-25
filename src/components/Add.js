@@ -4,7 +4,7 @@ import { ResultCard } from "./ResultCard";
 export const Add = () => {
   const [query, setQuery] = useState("");
   const [results, setResults] = useState([]);
-  const apiKey='3884e8efba3757f4df02a71e8cf00715'
+  const apiKey='3884e8efba3757f4df02a71e8cf00715';
 
 
   const onChange = (e) => {
